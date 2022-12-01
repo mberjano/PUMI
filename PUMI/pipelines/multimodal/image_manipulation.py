@@ -179,3 +179,4 @@ def timecourse2png(wf, plot_type='all', sink=True, **kwargs):
     wf.connect(mean_ts, 'out_file', plottimeser, 'in_file')
     wf.connect(plottimeser, 'out_file', 'outputspec', 'out_file')
 
+   # This is a trivial modification that won't affect anything :)
